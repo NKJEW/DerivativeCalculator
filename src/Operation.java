@@ -1,8 +1,8 @@
 public enum Operation {
     addition,
     subtraction,
-    product,
-    quotient,
+    multiplication,
+    division,
     sin,
     cos,
     tan,
@@ -16,8 +16,11 @@ public enum Operation {
     asec,
     acot,
     log,
+    logbase10,
     ln,
-    exp,
+    exponentiation,
+    root,
+    sqrt,
     abs
 };
 
@@ -38,7 +41,10 @@ a/b
 \acsc(a)
 \asec(a)
 \acot(a)
-\log_(a)(b) or \log(a)
+\log[a](b)
+\log(a)
+\ln(a)
 a^b
-|a|
+\root[a](b) or \root(a)
+\abs(a)
 */
