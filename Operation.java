@@ -1,0 +1,50 @@
+public enum Operation {
+    addition,
+    subtraction,
+    multiplication,
+    division,
+    sin,
+    cos,
+    tan,
+    csc,
+    sec,
+    cot,
+    asin,
+    acos,
+    atan,
+    acsc,
+    asec,
+    acot,
+    log,
+    logbase10,
+    ln,
+    exponentiation,
+    root,
+    sqrt,
+    abs
+};
+
+/*
+a+b
+a-b or -a
+a*b
+a/b
+\sin(a)
+\cos(a)
+\tan(a)
+\csc(a)
+\sec(a)
+\cot(a)
+\asin(a)
+\acos(a)
+\atan(a)
+\acsc(a)
+\asec(a)
+\acot(a)
+\log[a](b)
+\log(a)
+\ln(a)
+a^b
+\root[a](b) or \root(a)
+\abs(a)
+*/
